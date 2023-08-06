@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#start {
+    margin-left: 20px;
+}
+#tail {
+    margin-right: 20px;
+}
+
+.tail-ico {
+    margin-right: 10px;
+}
+
+/* body section style */
+
+.main-body {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;    
+}
+
+.left {
+    height: calc(100vh - 100px);
+    margin-right: 3px;
+    width: 70%;
+    background-image: url("https://www.india.com/wp-content/uploads/2020/06/Face-Pack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 20px 20px;
+}
+.left-cont {
+    position: relative;
+    top: calc(50% - 100px);
+    left: 100px;
+    width: max-content;
+}
+.left-cont h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left-cont p {
+    font-family: monospace;
+    margin-top: 0px;
+    font-size: 1.3em;
+}
+
+.right {
+    height: calc(100vh - 100px);
+    width: calc(100% - 70%);
+    background-image: url("https://plus.unsplash.com/premium_photo-1661274136410-90efa0961c3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZhY2UlMjBwYWNrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Footer style section */
+
+.footer {
+    margin-top: 3px;
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
